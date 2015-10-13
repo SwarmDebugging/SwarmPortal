@@ -1,0 +1,6 @@
+{
+  "name": "Swarm Debugging Portal",
+  "description": "Portal of web contents for Swarm Debugging Infrastructure",
+  "repository": "https://github.com/SwarmDebugging/SwarmPortal",
+  "addons": []
+}
