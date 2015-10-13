@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/images/lang-logo.png">
+    </a>
+    <h1>Welcome to Swarm Debugging Application Portal</h1>
+    <p>Swarm Debugging  is a powerful approach to share debugging session information.</p>
+  </div>
+</div>
+<div class="container">
+  <div class="alert alert-info text-center" role="alert">
+    This is the web content part of Swarm Debugging.
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-6">
+      <p>Debugging sessions require a methodical process of finding causes and reducing the number of software problems. During such sessions, developers run a software project, traversing method 		invocations, setting breakpoints, stopping or restarting executions. In these sessions, developers explore different parts of the code and create knowledge about them. When debugging sessions are 		over, it is likely that such knowledge is lost, and developers cannot use it in other sessions or sharing it with collaborators. We have developed Swarm Debugging, a new approach for visualizing 		and sharing information obtained during debugging sessions, providing interactive and real-time visualization techniques, and several searching tools.  Through usage scenarios, we demonstrate that 		it can aid developers to decrease the required time for deciding where to toggle a breakpoint and locate bug causes. We show how Swarm Debugging offers more useful support for many typical 		development tasks than a traditional debugger tool.</p>
+    </div>
+   <div class="alert alert-info text-center" role="alert">
+    Swarm Debugging is a result of research project developing by Fabio Petrillo. For more information, please contact me: fabio at petrillo.com .
+  </div>
+</div>
+
+{% endblock %}
